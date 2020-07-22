@@ -1,0 +1,156 @@
+
+   body{
+        font-family:'Montserrat' ;
+    }
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+    z-index: 0;
+}
+h1{
+    font-family: 'Montserrat-Black';
+    font-size:3.5rem ;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 2rem;
+
+   
+
+}
+.phone{
+    margin-top: 3rem;
+}
+
+
+.container-fluid{
+}
+/* navigation bar */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    padding-left: 12rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-top: 6rem;
+    padding-right: 12rem;
+}
+.nav-item{
+    padding:0,18px;
+    
+}
+.title-image{ 
+    width: 60%;
+    transform: rotate(25deg);
+}
+.lower-text{
+    font-family: Ubuntu;
+}
+.row{
+    text-align: center;
+    padding:5% ;
+}
+#features{
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    bottom:280px ;
+}
+
+
+h3 {
+    font-family: 'Montserrat-Black';
+    font-weight: 900;
+    font-weight: 3500;
+}
+
+p{
+   color:gray;
+}
+
+
+.icon:hover{
+   color: #ff4c68;
+}
+
+.icon{
+    color:#ef8172;
+    padding-bottom:5% ;
+}
+#testimonials{
+    text-align: center; 
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item{
+
+  
+    padding: 7% 15%;
+}
+h2{
+   font-family:'Montserrat-Black' ;
+   font-size: 3rem;
+   font-weight: 900;
+
+   line-height: 1.5;
+}
+
+
+
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+}
+#press{
+    background-color:#ef8172 ;
+   text-align: center;
+   padding-bottom: 3%;
+}
+.press{
+    width:15%;
+    margin: 20px,15px,20px;
+    
+}
+#pricing{
+    padding: 100px ;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+#cta {
+   
+    padding: 7% 15%;
+    background-color:#ff4c68;
+    color:#fff;
+    text-align: center;
+}
+    
+    .CTA-heading{
+       
+        font-family:'Montserrat-Black' ;
+        font-size: 3.5rem;
+    }
+
+
+@media (max-width:706px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#footer{
+    text-align: center;
+}
+.download-button{
+    margin: 20px;
+}
+.social-icon{
+    margin: 2% 1%;
+}
